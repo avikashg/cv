@@ -49,7 +49,8 @@
             /* justify-content: space-between; */
             height: 80px;
         }
-        .push{
+
+        .push {
             margin-left: auto;
         }
 
@@ -65,12 +66,14 @@
             color: black;
         }
 
-        .headercontainer li + li {
+        .headercontainer li+li {
             border-left: solid 1px black;
         }
-        .headercontainer li a:hover{
+
+        .headercontainer li a:hover {
             color: burlywood
         }
+
         div.main {
             height: 80vh;
             display: flex;
@@ -108,10 +111,12 @@
             justify-content: center;
             align-items: center;
         }
+
         .photograph img {
             height: 40vh;
             min-height: 150px;
         }
+
         .summary {
             display: flex;
             align-items: center;
@@ -128,6 +133,7 @@
             font-size: 3rem;
             padding-bottom: 10px;
         }
+
         .desc p {
             line-height: 1.7;
         }
@@ -185,11 +191,13 @@
             top: 40%;
             left: 0;
             z-index: 1;
-            
+
         }
-        .circle:hover{
+
+        .circle:hover {
             background-color: #f3f3f3;
         }
+
         /* .icon{
             display: inline-block;
             width: 1px;
@@ -199,7 +207,11 @@
             padding: 20px;
             margin: 10px;
         } */
-
+        @media (-webkit-min-device-pixel-ratio: 1.1) and (-webkit-max-device-pixel-ratio: 1.99) {
+            body {
+                zoom: 0.67;
+            }
+        }
     </style>
 </head>
 
@@ -210,7 +222,7 @@
                 <div class="icon">
                     <svg width="70" height="70">
                         <circle cx="35" cy="35" r="15" stroke="green" stroke-width="0" fill="orange" />
-                      </svg>
+                    </svg>
                 </div>
                 <div class="name">
                     <p><strong>Avikash Gorka</strong></p> <span>Full Stack Developer</span>
@@ -238,10 +250,14 @@
                 </div>
                 <div class="desc">
                     <h3>A bit about me</h3>
-                    <p>Test automation architect with versatile experience in design and development of test automation solutions with an
-                        innovative concept to the next evolutionary phase.  Having strong communication, analytical and problem-solving skills.
-                        Proven leadership and project management skills having supervised the successful delivery of multiple diverse projects. Am
-                        driven by roles that will leverage my strengths in the Project Management, Test Automation, AWS Development, DevOps.</p>
+                    <p>Test automation architect with versatile experience in design and development of test automation
+                        solutions with an
+                        innovative concept to the next evolutionary phase. Having strong communication, analytical and
+                        problem-solving skills.
+                        Proven leadership and project management skills having supervised the successful delivery of
+                        multiple diverse projects. Am
+                        driven by roles that will leverage my strengths in the Project Management, Test Automation, AWS
+                        Development, DevOps.</p>
                 </div>
                 <div class="sections">
                     <div class="circle resume"><a href=""><span>Resume</span></a></div>
@@ -263,10 +279,10 @@
                 </div>
                 <div id="followme" class="footer-item">
                     <div class="footer-item-heading">Follow Me</div>
-                    <div>
-                       <a href="https://twitter.com/AvikashGorka"><img src="images/twitter.webp" alt="twitter"></a>
-                       <a href="https://www.linkedin.com/in/avikashgorka/"><img src="images/linkedin.webp" alt="linkedin"></a>
-                        
+                    <div style="display: flex;justify-content: space-around;align-content: center; ">
+                        <a href="https://twitter.com/AvikashGorka"><img src="images/twitter.webp" alt="twitter"></a>
+                        <a href="https://www.linkedin.com/in/avikashgorka/"><img src="images/linkedin.webp"
+                                alt="linkedin"></a>
                     </div>
                 </div>
             </div>
